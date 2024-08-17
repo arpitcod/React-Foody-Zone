@@ -1,0 +1,58 @@
+.main_container {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("https://images.pexels.com/photos/1435904/pexels-photo-1435904.jpeg?auto=compress&cs=tinysrgb&w=600");
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center; /* Center the image */
+    position: relative; 
+    /* border: 1px solid red; */
+    padding: 10px;
+    min-height: 100vh;
+}
+
+.main_container .badge{
+    font-size: 18px;
+}
+.card_container{
+    display: flex;
+}
+.card{
+    backdrop-filter: blur(10px);
+    background: transparent;
+    /* border: 1px solid white; */
+    color: white;
+}
+.card-title{
+    font-weight: 600;
+}
+.card-text{
+    font-weight:300;
+}
+
+
+.food_img{
+    width: 150px; 
+    border-radius: 50%;
+    /* border: 1px solid red; */
+    /* float: left; */
+    overflow: auto;
+}
+/* .card-body{
+    display: flex;
+} */
+
+
+@media only screen and (max-width: 575.98px) {
+
+    .card{
+        display: flex;
+    }
+    .card_col{
+        display: flex;
+         align-items: center;
+}
+
+    .food_img {
+        width: 100px;
+       
+    }
+}
